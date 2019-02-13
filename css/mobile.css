@@ -33,10 +33,6 @@
         padding: 0.5rem;
     }
 
-    #showcase .showcase-content {
-        margin-top: -2rem;
-    }
-
     #who {
         display: block;
     }
@@ -62,4 +58,18 @@
         border-top: 4px solid #333;
     }
 
+}
+
+@media(max-height: 568px) {
+    #showcase .showcase-content {
+        margin-top: -0.25rem;
+    }
+
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
 }
